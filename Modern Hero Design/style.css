@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Helvetica;
+  }
+  
+  #line{
+    width:2px;
+    height:35%;
+    border:solid 2px black;
+    background-color:black;
+    position:fixed;
+    top:0%;
+    left:35px;
+  }
+  
+  #vertical-text{
+    font-family:Fjalla One;
+    writing-mode:vertical-rl;
+    font-size:3rem;
+    position:fixed;
+    top:40%;
+    left:15px;
+    animation:text 1s;
+  }
+  @keyframes text{
+    from{left:-15px}
+    to{left:15px}
+  }
+  
+  .nav{
+    position:absolute;
+    color:gray;
+    letter-spacing:-px;
+    top:15px;
+    right:30px;
+    list-style:none;
+    display:flex;
+    gap:5px
+  }
+  
+  .nav li{
+    padding:0px 10px;
+    font-size:14px;
+  }
+  
+  .hero{
+    position:absolute;
+    top:10%;
+    left:10%;
+    display:flex;
+    gap:50px;
+  }
+  
+  @media only screen and (max-width:700px){
+    .nav{
+      display:none;
+    }
+    
+    #line{
+      height:25%;
+      left:15px
+    }
+    
+    #vertical-text{
+      font-size:1rem;
+      letter-spacing:0.5rem;
+      top:30%;
+      left:10px;
+    }
+    
+   .hero{
+      flex-direction:column-reverse;
+      align-items:center;
+      padding-top:0px;
+      top:7%;
+      gap:30px;
+  }
+    .hero img{
+      width:300px;
+    }
+    
+  .hero--text{
+      align-items:center;
+      text-align:center;
+      padding-top:50px;
+   }
+    
+    .social{
+      justify-content:center;
+    }
+  }
+  
+  .hero img{
+   width:50%;
+  }
+  
+  .hero--text{
+    display:flex;
+    flex-direction:column;
+    padding-top:120px;
+    padding-left:10px;
+    flex:1;
+  }
+  .hero--text h1{
+    font-size:70px;
+    margin-bottom:30px;
+    line-height:65px;
+    text-align:left;
+    letter-spacing:-5px;
+  }
+  #hi{
+    font-size:7rem;
+    color:black;
+    letter-spacing:5px;
+  }
+  
+  .hero--text p{
+    color:gray;
+    letter-spacing:1px;
+    line-height:20px;
+    font-family:Fredoka;
+  }
+  
+  .hero--text h1 span{
+    color:gray;
+  }
+  
+  .social{
+    width:150px;
+    padding:5px 0px;
+    height:30px;
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    justify-content:space-evenly
+  }
+  .social i{
+    width:30px;
+    height:30px;
+    color:white;
+    background-color:black;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .social i:hover{
+    background-color:gray;
+    cursor:pointer;
+  }
+  .fa{
+    width:30px;
+    height:30px;
+  }
+  
+  
