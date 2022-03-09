@@ -70,7 +70,6 @@ body{
 
 .testimonial{
       width:100%;
-      background-color: aquamarine;
       display: flex;
       justify-content: space-between;
       gap:30px;
@@ -79,9 +78,12 @@ body{
   .box{
       flex:1;
       height:200px;
+      display: flex;
+      flex-direction: column;
       background-color: hsl(300, 43%, 22%);
       border-radius: 5px;
-      padding: 20px 15px;
+      justify-content: center;
+      align-items: center;
   }
 
   .box--two{
@@ -101,5 +103,17 @@ body{
 
  .user img{
      border-radius: 50%;
-     width: 60px;
+     width: 50px;
+ }
+
+ .user p{
+     font-size: 14px;
+     font-weight: 700;
+     color:white;
+ }
+
+ .user p span{
+     font-size: 13px;
+     font-weight: 400;
+     color:hsl(333, 80%, 67%)
  }
