@@ -54,6 +54,8 @@ body{
     justify-content: center;
     padding: 10px;
 }
+
+
 .rating span{
     font-size: 13px;
     font-weight: 700;
@@ -77,28 +79,31 @@ body{
 
   .box{
       flex:1;
-      height:200px;
+      height: 250px;
       display: flex;
       flex-direction: column;
       background-color: hsl(300, 43%, 22%);
       border-radius: 5px;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+      padding: 0px 50px;
+      gap:30px;
   }
 
   .box--two{
-     margin-top:15px;
+     margin-top:20px;
 
   }
 
   .box--three{
-    margin-top:30px;
+    margin-top:40px;
  }
 
  .user{
      display:flex;
      align-items: center;
-     gap:30px;
+     justify-content: flex-start;
+     gap:20px;
  }
 
  .user img{
@@ -116,4 +121,15 @@ body{
      font-size: 13px;
      font-weight: 400;
      color:hsl(333, 80%, 67%)
+ }
+
+ .box p{
+     font-size: 12px;
+     color: hsl(300, 24%, 96%);
+     line-height: 20px;
+ }
+
+ .svg{
+     fill:black;
+     width: 20px;
  }
