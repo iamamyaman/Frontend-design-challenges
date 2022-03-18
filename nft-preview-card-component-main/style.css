@@ -1,3 +1,55 @@
-.icon-ethereum{
-  width: 100px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card{
+  width:300px;
+  background-color: yellow;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  gap:15px;
+}
+
+.nft--pic{
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.nft--name{
+  width:100%;
+  text-align: left;
+}
+.price--duration,.duration,.price{
+  display: flex;
+  align-items: center;
+}
+
+.price--duration{
+  justify-content: space-between;
+  width:100%;
+}
+
+.price{
+  gap:3px;
+}
+.duration{
+  gap:3px;
+}
+
+.creator{
+  display: flex;
 }
