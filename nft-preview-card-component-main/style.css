@@ -10,17 +10,18 @@ body{
   align-items: center;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
 }
 
 .card{
   width:300px;
-  background-color: yellow;
+  background-color:hsl(216, 50%, 16%);
   padding: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  gap:15px;
+  gap:20px;
 }
 
 .nft--pic{
@@ -32,6 +33,13 @@ body{
 .nft--name{
   width:100%;
   text-align: left;
+  color:white;
+  font-size: 20px;
+}
+
+.nft--info{
+  color:hsl(215, 51%, 70%);
+  line-height: 22px;
 }
 .price--duration,.duration,.price{
   display: flex;
@@ -44,12 +52,48 @@ body{
 }
 
 .price{
-  gap:3px;
+  gap:5px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.price img{
+  width:10px;
 }
 .duration{
   gap:3px;
 }
 
+.duration p{
+  color:hsl(215, 51%, 70%);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+hr{
+  width:100%;
+  border-color: hsl(215, 51%, 70%);
+}
 .creator{
+  width:100%;
   display: flex;
+  align-items: center;
+  gap:15px;
+}
+
+.creator img{
+  width:30px;
+  border:solid 2px white;
+  border-radius: 50%;
+
+}
+
+.creator p{
+  font-size: 14px;
+  color:hsl(215, 51%, 70%);
+}
+
+.creator span{
+  color:white;
 }
