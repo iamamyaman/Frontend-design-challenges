@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+  }
+  
+  body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+  }
+  
+  label{
+    font-size:12px;
+    font-weight:400;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  #contact--form{
+    max-width:400px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    padding:15px;
+    border-radius:20px;
+    background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  }
+  
+  input{
+    padding:10px;
+    padding-left:40px;
+    width:100%;
+    outline:none;
+    border-style:none;
+    border-radius:10px;
+    margin-top:3px;
+    opacity:0.5;
+    font-family: 'Fredoka', sans-serif;
+    color:#2b1251;
+  }
+  
+  input:focus{
+    opacity:1;
+  }
+  
+  input:focus + i{
+    color:gray;
+  }
+  
+  .btn{
+    width:30%;
+    padding:5px 0;
+    border-radius:10px;
+    border-style:none;
+    opacity:0.6;
+    color:white;
+    font-family: 'Fredoka', sans-serif;
+    background-color:#7b49c6;
+    cursor:pointer;
+  }
+  
+  .btn:hover{
+    opacity:1;
+  }
+  
+  div{
+    position:relative;
+  }
+  
+  i{
+    position:absolute;
+    left:0;
+    bottom:0;
+    padding:10px;
+  }
