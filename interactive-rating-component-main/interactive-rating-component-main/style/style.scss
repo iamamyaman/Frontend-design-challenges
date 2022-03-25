@@ -1,8 +1,9 @@
 $base-color:hsl(216, 12%, 8%);
-$card-color:hsl(213, 19%, 18%);
+$card-color:hsl(212, 18%, 16%);
 $med-gray:hsl(222, 12%, 22%);
 $light-gray:hsl(217, 12%, 63%);
 $btn-color:hsl(216, 12%, 54%);
+$orange:hsl(25, 97%, 53%);
 
 @mixin flex($direction){
     display: flex;
@@ -51,8 +52,9 @@ body{
     @include flex(row);
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 15px;
 
-div{
+a{
     @include flex(row);
     justify-content: center;
     align-items: center;
@@ -63,15 +65,29 @@ div{
     font-size: 13px;
     color:$light-gray;
     font-weight: 700;
-    margin-bottom: 12px;
+    cursor: pointer;
+    text-decoration: none;
 }
+    a:hover{
+        background-color: $orange;
+        color:white;
+    }
+    
+    a:active{
+        background-color: $orange;
+        color:white;
+    }
 }
+
 .submit{
-    color:hsl(25, 97%, 53%);
+    font-size: 12px;
+    color:$orange;
     padding: 10px 0px;
     border-radius: 20px;
     border-style: none;
     font-weight: 700;
+    cursor: pointer;
+    letter-spacing:2px;
 }
 }
 
