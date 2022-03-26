@@ -68,26 +68,27 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-    a:hover{
-        background-color: $orange;
-        color:white;
-    }
-    
-    a:active{
-        background-color: $orange;
-        color:white;
-    }
+  a:hover{
+      background-color: $light-gray;
+      color:white;
+  }
+
 }
 
 .submit{
     font-size: 12px;
-    color:$orange;
+    background-color: $orange;
+    color:white;
     padding: 10px 0px;
     border-radius: 20px;
     border-style: none;
     font-weight: 700;
     cursor: pointer;
     letter-spacing:2px;
+}
+.submit:hover{
+    background-color: white;
+    color:$orange;
 }
 }
 
