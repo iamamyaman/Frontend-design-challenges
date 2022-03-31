@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:60%;
+    height:500px;
+    background-color: yellow;
+    display: flex;
+}
+
+
+.box{
+    width:100%;
+}
+.box1{
+    background-color: brown;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box2{
+    background-color: blueviolet;
+}
