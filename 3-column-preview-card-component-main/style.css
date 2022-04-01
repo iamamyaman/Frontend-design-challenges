@@ -12,9 +12,17 @@ body{
 }
 
 .container{
-    width:60%;
+    width:800px;
     height:500px;
     display: flex;
+}
+
+@media screen and (max-width:400px) {
+    .container{
+        flex-direction: column;
+        width:90%;
+        margin-bottom: 100px;
+    }
 }
 
 .box{
@@ -59,4 +67,16 @@ button{
     border-radius: 30px;
     background-color: white;
     font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn1{
+    color:hsl(31, 77%, 52%);
+}
+
+.btn2{
+    color:hsl(184, 100%, 22%);
+}
+
+.btn3{
+    color:hsl(179, 100%, 13%);
 }
