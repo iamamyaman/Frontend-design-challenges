@@ -32,6 +32,14 @@ body{
     color:white;
     font-family: 'Big Shoulders Display', cursive;
 }
+
+.box p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    color:hsl(0, 0%, 95%)
+
+}
 .box1{
     background-color: hsl(31, 77%, 52%);
 }
@@ -42,4 +50,13 @@ body{
 
 .box3{
     background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    width:130px;
+    border-style: none;
+    padding: 13px 20px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
 }
