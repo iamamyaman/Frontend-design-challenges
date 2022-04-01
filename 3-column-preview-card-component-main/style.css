@@ -14,22 +14,32 @@ body{
 .container{
     width:60%;
     height:500px;
-    background-color: yellow;
     display: flex;
 }
 
-
 .box{
     width:100%;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.box img{
+   width:70px;
+}
+
+.box h1{
+    color:white;
+    font-family: 'Big Shoulders Display', cursive;
 }
 .box1{
-    background-color: brown;
+    background-color: hsl(31, 77%, 52%);
 }
 
 .box2{
-    background-color: green;
+    background-color: hsl(184, 100%, 22%);
 }
 
-.box2{
-    background-color: blueviolet;
+.box3{
+    background-color: hsl(179, 100%, 13%);
 }
